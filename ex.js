@@ -1,7 +1,16 @@
-import sqlite3 from 'sqlite3';
+//import sqlite3 from 'sqlite3';
 
 console.log("Hello world");
 
+const sample = async () => {
+  return  5*5;
+}
+
+const s = await sample();
+
+sample().then(console.log());
+console.log(s);
+/* 
 function main() {
   let p = Promise.resolve();
   for (let i = 0; i < 100; i++){
@@ -35,3 +44,4 @@ function PrintCount() {
     })
   })
 }
+  */

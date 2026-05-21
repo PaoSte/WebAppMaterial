@@ -4,8 +4,7 @@
   "description": "",
   "main": "ex.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -16,6 +15,7 @@
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
+    "dayjs": "^1.11.20",
     "sqlite3": "^6.0.1"
   }
 }
